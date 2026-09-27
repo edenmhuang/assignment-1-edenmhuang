@@ -1,6 +1,8 @@
 # Assignment 1: Build the Look and Feel of a Task Manager
 ## INFO 153A/253A Front-End Web Architecture - Fall 2026
 
+Website: [View the site](https://edenmhuang.github.io/assignment-1-edenmhuang/)
+
 **Points:** 100 points  
 **Individual Assignment**  
 **Released:** Monday, September 21, 2026, 9 AM PT  
