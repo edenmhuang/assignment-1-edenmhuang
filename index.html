@@ -19,10 +19,10 @@
 
             <img src="assets/menu_icon.png" alt="Menu" class="menu-icon">
 
-            <div class="quick-find">
-                <img src="assets/search_icon.png" alt="">
+            <label class="quick-find">
+                <img src="assets/search_icon.png" alt="Quick Find">
                 <input type="text" placeholder="Quick Find">
-            </div>
+            </label>
         
             <div class="task-counter">
                 <img src="assets/check_icon.png" alt="">
@@ -31,46 +31,40 @@
 
         </header>
         <nav>
-            <section>
-                <h2>
-                    nav
-                </h2>
-                <ul>
-                    <li>Inbox</li>
-                    <li>Today</li>
-                    <li>Upcoming</li>
-                </ul>
-            </section>
+            <ul>
+                <li>
+                    <img src="assets/inbox_icon.png" alt="">
+                    <span class="label">Inbox</span>
+                    <span class="count">5</span>
+                </li>
+                <li>
+                    <img src="assets/calendar_icon.png" alt="">
+                    <span class="label">Today</span>
+                    <span class="count">5</span>
+                </li>
+                <li>
+                    <img src="assets/upcoming_icon.png" alt="">
+                    <span class="label">Upcoming</span>
+                </li>
+            </ul>
         </nav>
 
-        <main class="">
+        <main class="#">
             <section>
-                <h2>
+                <h1>
                     Inbox
-                </h2>
-                <ul>
-                    <li>Call Mom</li>
-                    <li>Buy the new issue of Scientific American</li>
-                    <li>Return the textbook to Josie</li>
-                    <li>Buy the new album by Rake</li>
-                    <li>Buy a gift card for Dad</li>
+                </h1>
+                <ul class="task-list">
+                    <li><label><input type="radio" name="task"> Call Mom</label></li>
+                    <li><label><input type="radio" name="task"> Buy the new issue of Scientific American</label></li>
+                    <li><label><input type="radio" name="task"> Return the textbook to Josie</label></li>
+                    <li><label><input type="radio" name="task"> Buy the new album by Rake</label></li>
+                    <li><label><input type="radio" name="task"> Buy a gift card for Dad</label></li>
                 </ul>
             </section>
 
         </main>
-
-        <aside class="aside">
-            Aside Content
-        </aside>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <p>&copy; 2024 Eden Huang. All rights reserved.</p>
-            </div>
-        </footer>
     </div>
-
-
 </body>
 </html>
 
