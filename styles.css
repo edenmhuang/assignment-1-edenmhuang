@@ -67,6 +67,7 @@ header img {
     margin-left: auto;
     color: #7e7d79;
     font-size: 12px;
+    gap: 5px;
 }
 
 /* navigation */
@@ -92,6 +93,9 @@ nav li {
 
 nav li:hover {
     background-color: #ffffff;
+}
+
+nav li:hover .label {
     font-weight: bold;
 }
 
